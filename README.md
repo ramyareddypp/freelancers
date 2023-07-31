@@ -1,4 +1,6 @@
-# Freelancers: ### This project is beneficial for both freelancers looking for work and individuals/organizations looking to hire them.
+# Freelancers
+
+### - This project is beneficial for both freelancers looking for work and individuals/organizations looking to hire them.
 
 ## Available Scripts
 
