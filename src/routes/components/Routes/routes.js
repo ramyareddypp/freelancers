@@ -1,16 +1,15 @@
 import * as React from "react";
-import { createRoot } from "react-dom/client";
 import { createBrowserRouter } from "react-router-dom";
-import { LoginForm } from "../../../login/components/LoginForm/loginForm";
-import { LOGIN_PATH } from "./constants";
+import { LoginPage } from "../../../login/components/LoginPage/loginPage";
+import { LOGIN_PATH, FORGOT_PASSWORD } from "./constants";
 
 export const ROUTER = createBrowserRouter([
   {
     path: LOGIN_PATH,
-    element: <LoginForm />,
+    element: <LoginPage />,
   },
   {
-    path: 'test',
-    element: <div>test</div>
-  }
+    path: FORGOT_PASSWORD,
+    element: <div>Contact your admin to reset your password</div>
+  },
 ]);
