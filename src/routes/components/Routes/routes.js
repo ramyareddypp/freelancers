@@ -1,7 +1,7 @@
 import * as React from "react";
 import { createBrowserRouter } from "react-router-dom";
 import { LoginPage } from "../../../login/components/LoginPage/loginPage";
-import { LOGIN_PATH, FORGOT_PASSWORD } from "./constants";
+import { LOGIN_PATH, FORGOT_PASSWORD } from "../../constants";
 
 export const ROUTER = createBrowserRouter([
   {
